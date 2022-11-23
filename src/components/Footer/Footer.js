@@ -7,6 +7,16 @@ import youtube from '../../assets/youtube-icon.png'
 import './Footer.scss'
 
 const Footer = () => {
+
+  const sendMessageToTelegram = () => {
+        let message = 'Hi';
+        let token = "5888101818:AAHaA1K22fDo0fJek8SUuxGh3n9rh1Q65k8";
+        let chat_id = -809910993;
+        let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${message}`;
+        let oReq = new XMLHttpRequest();
+            oReq.open("GET", url, true);
+            oReq.send();
+  }
   return (
     <div className='footer-body'>
         <div >
@@ -20,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div className='footer-main-controls'>
                     <input placeholder='Введіть текст' />
-                    <button>Підписатись на новини</button>
+                    <button onClick={sendMessageToTelegram}>Підписатись на новини</button>
                 </div>
             </div>
             </div>
