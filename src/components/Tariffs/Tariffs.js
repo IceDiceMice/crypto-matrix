@@ -4,7 +4,7 @@ import TariffsBlock from '../TariffsBlock/TariffsBlock'
 
 const Tariffs = () => {
   return (
-    <div className='tariffs-body'>
+    <div id='tariffs' className='tariffs-body'>
       <div className='tariffs-header'>
       <p className='tariffs-title'>Тарифи</p>
         <p className='tariffs-title'>Тарифи</p>

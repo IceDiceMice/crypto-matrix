@@ -4,7 +4,7 @@ import CommonQuestionsBlock from '../CommonQuestionsBlock/CommonQuestionsBlock'
 
 const CommonQuestions = () => {
   return (
-    <div className='common-questions-body'>
+    <div id="chaps" className='common-questions-body'>
     <div className='commom-questions-header'>
     <p className='commom-questions-title'>Часті питання</p>
     <p className='commom-questions-title'>Часті питання</p>

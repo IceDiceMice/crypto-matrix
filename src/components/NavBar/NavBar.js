@@ -4,6 +4,11 @@ import Button from "../Button/Button";
 import logo from '../../assets/logo-long-red.gif'
 
 const NavBar = () => {
+  const scrollIntoSection = () => {
+      document.getElementById('tariffs').scrollIntoView({
+        behavior: 'smooth'
+      });
+  }
   const navbuttons = {
     color: "#FFFFFF",
     background: "none",
@@ -25,8 +30,8 @@ const NavBar = () => {
         </div>
         <div className='navbar-buttons'>
           <Button style={navbuttons}>ПРОГРАМИ</Button>
-          <Button style={navbuttons}>ТАРИФИ</Button>
-          <Button style={navbuttons}>ЧАПИ</Button>
+          <Button style={navbuttons}><span onClick={scrollIntoSection}>ТАРИФИ</span></Button>
+          <Button style={navbuttons}><span>ЧАПИ</span></Button>
           <Button style={joinbutton}>ПРИЄДНАТИСЬ</Button>
         </div>
       </div>
