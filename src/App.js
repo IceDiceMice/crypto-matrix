@@ -7,7 +7,6 @@ import  YourData from "./pages/YourData/YourData";
 
 const App = () => {
   return (
-    <div className="wrapper">
       <Router>
         <Routes>
           <Route path='/' element={<Home />}/>
@@ -15,7 +14,6 @@ const App = () => {
           <Route path='/your-data'  element={<YourData />}/>
         </Routes>
       </Router>
-      </div>
   );
 }
 

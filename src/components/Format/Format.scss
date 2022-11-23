@@ -3,6 +3,7 @@
 .format-body{
     height: 1010px;
     width: 100%;
+
 }
 .format-header {
     position: relative;
@@ -46,4 +47,68 @@
     z-index: 1;
     top: 139px;
   }
+}
+.format-main{
+  margin: 65px 148px 0 148px;
+  height: 726px;
+  position: relative;
+  &>div{
+    position: absolute;
+    width: 600px;
+    &>div{
+      position: relative;
+    }
+  }
+  img{
+    max-width: 600px;
+    max-height: 600px;
+  }
+  p{
+    margin: 30.22px auto 0 auto;
+    width: 77%;
+    font-family: 'HeliosC';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: $white-color;
+  }
+}
+.format-lectures{
+  &>div{
+    .format-forms{
+      left: 179px;
+      top: 177.5px;
+    }
+  }
+}
+.format-approuch{
+  left: 559px;
+  &>div{
+    .format-forms{
+      left: 143px;
+      top: 132.5px;
+    }
+  }
+}
+.format-material{
+left: 1116px;
+&>div{
+  .format-forms{
+    left: 163px;
+    top: 169.5px;
+  }
+}
+}
+.format-platform{
+  left: 1673px;
+  &>div{
+    .format-forms{
+      left: 171px;
+      top: 171.5px;
+    }
+  }
+}
+.format-forms{
+  position: absolute;
 }

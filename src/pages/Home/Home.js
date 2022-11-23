@@ -15,7 +15,7 @@ import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
-    <>
+    <div className="wrapper">
       <NavBar></NavBar>
       <div className='main'>
         <Header></Header>
@@ -30,7 +30,7 @@ const Home = () => {
 <CommonQuestions></CommonQuestions>
 <Footer></Footer>
       </div>
-    </>
+    </div>
   );
 };
 
