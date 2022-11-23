@@ -23,12 +23,12 @@ const Home = () => {
         <Graph></Graph>
         <Program></Program>
         <Format></Format>
-<Results></Results>
-<Tariffs></Tariffs>
-<Mentors></Mentors>
-<Feedbacks></Feedbacks>
-<CommonQuestions></CommonQuestions>
-<Footer></Footer>
+        <Results></Results>
+        <Tariffs></Tariffs>
+        <Mentors></Mentors>
+        <Feedbacks></Feedbacks>
+        <CommonQuestions></CommonQuestions>
+        <Footer></Footer>
       </div>
     </div>
   );
