@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+.common-questions-block-body{
+    height: auto;
+    width: 446px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $white-color;
+    font-family: 'HeliosC';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: $white-color;
+p{
+    max-width: 349px;
+}
+}

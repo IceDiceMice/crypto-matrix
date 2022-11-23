@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+.feedback-block-body{
+    width: 463px;
+height: 170px;
+}
+.feedback-block-main{
+display: flex;
+justify-content: flex-start;
+margin-bottom: 25px;
+&>div{
+align-self: flex-end;
+margin-left: 21px;
+}
+}
+.feedback-block-content{
+    font-family: 'HeliosC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: $white-color;
+}
+.feedback-block-info{
+    font-family: 'HeliosC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    &:nth-child(1){
+color:  $white-color;
+    }
+    &:nth-child(2){
+color: $red-color;
+text-transform: uppercase;
+    }
+
+}

@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+
+.feedbacks-body{
+  height: 732px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.feedbacks-main{
+  margin-top: 58px;
+  height: 100%;
+  width: 100%;
+  padding: 0 149px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 235px;
+  grid-row-gap: 94px;
+}
+.feedbacks-header {
+    position: relative;
+    width: 1059px;
+    min-height: 219px;
+  }
+  .feedbacks-line {
+    position: absolute;
+    width: 1059px;
+    height: 10px;
+    left: 0px;
+    top: 168px;
+    background: $red-color;
+  }
+.feedbacks-title {
+  position: absolute;
+  width: 815px;
+  font-family: "HeliosBlackC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 100%;
+  left: 148px;
+  height: 80px;
+  text-transform: uppercase;
+
+  &:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px $white-color;
+  }
+
+  &:nth-child(2) {
+    top: 70px;
+    color: transparent;
+    -webkit-text-stroke: 1px $white-color;
+  }
+
+  &:nth-child(3) {
+    color: $white-color;
+    z-index: 1;
+    top: 139px;
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+nav{
+    height: 74px;
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    background-color: $black-color;
+    z-index: 5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+.navbar-buttons{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.logo{
+    img{
+        max-width: 212px;
+        max-height: 22px;
+    }
+}

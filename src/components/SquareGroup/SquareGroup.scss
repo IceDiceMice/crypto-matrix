@@ -1,0 +1,15 @@
+.square-group{
+height: 40px;
+width: 40px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 10px;
+padding-top: 6px;
+
+}
+
+.square{
+height: 15px;
+width: 15px;
+border: 1px solid #FFFFFF
+}

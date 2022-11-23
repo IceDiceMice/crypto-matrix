@@ -1,0 +1,83 @@
+@import '../../styles/variables.scss';
+
+.mentor-block-body{
+    width: 389px;
+    position: relative;
+    .mentor-block-main {
+        position: relative;
+        width: 389px;
+        height: 381px;
+    }
+}
+.mentor-block-header{
+    width: 100%;
+  position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: -15px;
+}
+
+.mentor-block-title{
+    margin-top: -5px;
+    width: 100%;
+    font-family: "HeliosBlackC";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 150%;
+    height: 30px;
+    text-transform: uppercase;
+    &:nth-child(1) {
+      color: transparent;
+      -webkit-text-stroke: 0.5px $white-color;
+    }
+    &:nth-child(2) {
+      color: transparent;
+      -webkit-text-stroke: 0.5px $white-color;
+    }
+    &:nth-child(3) {
+      color: $white-color;
+    }
+}
+.mentor-block-bg-gif{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.mentor-block-photo{
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+width: 100%;
+text-align: center;
+}
+.mentor-block-socials{
+    width: 72px;
+height: 118px;
+position: absolute;
+z-index: 1;
+top: 140px;
+right: 3.5px;
+ img{
+ height: 49px;
+ width: 49px;
+ &:nth-child(1){
+    align-self: flex-end;
+ }
+ }
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+}
+.mentor-block-content{
+margin-top: 15px;
+color: $white-color;
+font-family: 'HeliosLightC';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 150%;
+}

@@ -1,0 +1,57 @@
+@import "../../styles/variables.scss";
+
+.program-body {
+  width: 100%;
+}
+.our-program-title {
+    position: relative;
+    width: 1059px;
+    height: 219px;
+  }
+  .program-line {
+    position: absolute;
+    width: 1059px;
+    height: 10px;
+    left: 0px;
+    top: 168px;
+    background: $red-color;
+  }
+.our-program {
+  position: absolute;
+  width: 815px;
+  font-family: "HeliosBlackC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 100%;
+  left: 148px;
+  height: 80px;
+  text-transform: uppercase;
+
+  &:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px $white-color;
+  }
+
+  &:nth-child(2) {
+    top: 70px;
+    color: transparent;
+    -webkit-text-stroke: 1px $white-color;
+  }
+
+  &:nth-child(3) {
+    top: 160px;
+    color: $white-color;
+    z-index: 1;
+    top: 139px;
+  }
+
+}
+.program-steps{
+  margin-top: 65px;
+  display: grid;
+padding-left: 148px;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+

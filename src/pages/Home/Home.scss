@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+    align-items: flex-start;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: $black-color;
+}

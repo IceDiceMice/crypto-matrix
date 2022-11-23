@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+.tariffs-body{
+    height: 910px;
+    width: 100%;
+    background-color: $white-color;
+}
+.tariffs-main{
+    margin: 49px 148px 65px ;
+    display: flex;
+    justify-content: space-between;
+}
+.tariffs-header {
+    position: relative;
+    width: 1059px;
+    height: 219px;
+    margin-top: 70px;
+  }
+  .tariffs-line {
+    position: absolute;
+    width: 1059px;
+    height: 10px;
+    left: 0px;
+    top: 168px;
+    background: $red-color;
+  }
+.tariffs-title {
+  position: absolute;
+  width: 815px;
+  font-family: "HeliosBlackC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 100%;
+  left: 148px;
+  height: 80px;
+  text-transform: uppercase;
+
+  &:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px $black-color;
+  }
+
+  &:nth-child(2) {
+    top: 70px;
+    color: transparent;
+    -webkit-text-stroke: 1px $black-color;
+  }
+
+  &:nth-child(3) {
+    color: $black-color;
+    z-index: 1;
+    top: 139px;
+  }
+}

@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+.program-block-body{
+    color: $white-color;
+    margin-bottom: 60px;
+    width: 62%;
+    font-family: 'HeliosC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    h1{
+        margin-bottom: 30px;
+        font-family: 'HeliosC';
+        font-weight: 700;
+        font-size: 16px;
+    }
+    &:last-child{
+        font-family: 'HeliosLightC';
+font-style: normal;
+font-size: 70px;
+line-height: 100%;
+text-transform: uppercase;
+    }
+
+}

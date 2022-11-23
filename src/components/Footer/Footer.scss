@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+.footer-body{
+   height: 149px;
+   width: 100%;
+   background-color: $white-color;
+   &>div{
+    border-bottom: 1px solid $red-color;
+   }
+   &>p{
+    padding-top: 10px;
+    text-align: center;
+   }
+}
+.footer-main{
+    height: 54px;
+    margin: 30px 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &>img{
+        max-width: 212px;
+        max-height: 22px;
+    }
+}
+
+.footer-main-socials{
+    width: 216px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main-controls{
+    height: 100%;
+    width: 761px;
+    display: flex;
+    justify-content: space-between;
+    input{
+        width: 54%;
+        border: 1px solid $black-color;
+        padding-left: 24px;
+    }
+    button{
+        font-family: 'HeliosC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: $black-color;
+        color: $white-color;
+        width: 43%;
+    }
+}
