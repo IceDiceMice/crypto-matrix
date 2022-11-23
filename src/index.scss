@@ -9,6 +9,16 @@
   font-family: 'HeliosBlackC';
   src: local('HeliosBlackC'), url(./assets/font/heliosblackc.otf) format('truetype');
 }
+
+@font-face {
+  font-family: 'HeliosLightC';
+  src: local('HeliosLightC'), url(./assets/font/Helioslightc.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'HeliosthinC';
+  src: local('HeliosthinC'), url(./assets/font/Heliosthinc.otf) format('truetype');
+}
 /* Reset styles */
 *,
 *::before,

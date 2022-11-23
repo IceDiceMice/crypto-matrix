@@ -1,16 +1,41 @@
 @import '../../styles/variables.scss';
-.common-questions-block-body{
-    height: auto;
-    width: 446px;
-    padding-bottom: 10px;
+
+.common-questions-block-body {
     border-bottom: 1px solid $white-color;
-    font-family: 'HeliosC';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 150%;
-color: $white-color;
-p{
-    max-width: 349px;
+    padding-bottom: 10px;
+    width: 446px;
+    color: $white-color;
+    margin-bottom: 30px;
+
+    .common-question {
+        height: auto;
+        font-family: 'HeliosC';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+
+    p {
+        max-width: 349px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'HeliosLightC';
+        height: 0;
+        overflow: hidden;
+        transition: height ease 0.2s;
+        display: inline-block;
+    }
 }
+
+.arrow-down {
+    transform: rotate(180deg);
 }
+

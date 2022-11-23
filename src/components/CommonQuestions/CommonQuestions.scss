@@ -1,60 +1,68 @@
 @import '../../styles/variables.scss';
 
-.common-questions-body{
-    height: 924px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.common-questions-body {
+  height: 924px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.commom-questions-main{
-height: 100%;
-margin-top: 65px;
-display: flex;
-justify-content: space-around;
-.commom-questions-main-quote{
+
+.commom-questions-main {
+  height: 100%;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-around;
+
+  .commom-questions-main-quote {
     height: 100%;
     width: 452px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    &>button{
-        width: 204px;
-        height: 54px;
-        background: $white-color;
-        text-transform: uppercase;
-        margin-top: 56px;
+
+    &>button {
+      width: 204px;
+      height: 54px;
+      background: $white-color;
+      text-transform: uppercase;
+      margin-top: 56px;
     }
-    &>p{
-        font-family: 'HeliosThinC';
-font-style: normal;
-font-weight: 100;
-font-size: 18px;
-line-height: 150%;
-text-transform: uppercase;
-color: #FFFFFF;
+
+    &>p {
+      font-family: 'HeliosThinC';
+      font-style: normal;
+      font-weight: 100;
+      font-size: 18px;
+      line-height: 150%;
+      text-transform: uppercase;
+      color: #FFFFFF;
     }
+  }
 }
-}
-.commom-questions-main-questions{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+.commom-questions-main-questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 735px;
 }
 
 .commom-questions-header {
-    position: relative;
-    width: 1059px;
-    min-height: 219px;
-  }
+  position: relative;
+  width: 1059px;
+  min-height: 219px;
+}
+
 .commom-questions-line {
-    position: absolute;
-    width: 1059px;
-    height: 10px;
-    left: 0px;
-    top: 168px;
-    background: $red-color;
-  }
+  position: absolute;
+  width: 1059px;
+  height: 10px;
+  left: 0px;
+  top: 168px;
+  background: $red-color;
+}
+
 .commom-questions-title {
   position: absolute;
   width: 815px;
