@@ -1,0 +1,78 @@
+@import '../../styles/variables.scss';
+
+.your-data-body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.your-data-header {
+    position: relative;
+    width: 1059px;
+    min-height: 219px;
+    margin-top: 70px;
+  }
+  .your-data-line {
+    position: absolute;
+    width: 1059px;
+    height: 10px;
+    left: 0px;
+    top: 168px;
+    background: $red-color;
+  }
+.your-data-title {
+  position: absolute;
+  width: 815px;
+  font-family: "HeliosBlackC";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 100%;
+  left: 148px;
+  height: 80px;
+  text-transform: uppercase;
+
+  &:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px $black-color;
+  }
+
+  &:nth-child(2) {
+    top: 70px;
+    color: transparent;
+    -webkit-text-stroke: 1px $black-color;
+  }
+
+  &:nth-child(3) {
+    top: 160px;
+    color: $black-color;
+    z-index: 1;
+    top: 139px
+}}
+.your-data-main{
+height: 100%;
+}
+.your-data-main-text{
+    margin-left: 148px;
+&:nth-child(1){
+    margin-top: 85px;
+    font-family: 'HeliosLightC';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+color: $black-color;
+}
+&:nth-child(2){
+    margin-top: 80px;
+    font-family: 'HeliosLightC';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: $black-color;
+    opacity: 0.3;
+}
+}
